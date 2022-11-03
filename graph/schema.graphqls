@@ -1,0 +1,20 @@
+type Player {
+  id: ID!
+  name: String!
+  team: String!
+  position: String!
+  rostered: Boolean!
+}
+
+type Query {
+  getPlayers: [Player!]!
+}
+
+input NewPlayer {
+  id: ID!
+  rostered: Boolean!
+}
+
+type Mutation {
+  addPlayerToRoster(input: NewPlayer!): Player!
+}
