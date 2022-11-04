@@ -111,4 +111,13 @@ mutation RemovePlayerFromRoster {
 
 ### Tools and technologies
 
-Go, GraphQL, Svelte
+Go: 
+
+GraphQL:
+https://pkg.go.dev/github.com/graphql-go/graphql#section-readme
+https://github.com/graphql-go/graphql 
+
+Svelte:
+
+Mongo:
+https://www.mongodb.com/languages/golang
